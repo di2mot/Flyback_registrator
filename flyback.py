@@ -16,6 +16,18 @@ import time
 ДА, всё максимально просто. Хотите сложнее? Запустите скрипт)))
 '''
 
+text = {
+'username': 'you_login',
+'email': 'you_email',
+'bday_day': '1',
+'bday_year': '1970',
+'new_password': 'strongPassword',
+'password_confirm': 'strongPassword',
+}
+
+# если нужно найти вольтаж, то начните с близкого к этому значению, если энергию, то с 0.01
+volt = 40.00
+
 
 start = time.time()
 
@@ -35,17 +47,6 @@ selector_9 : str = 'answer'
 selector_10 : str = 'apply'
 selector_11: str = 'submit'
 
-text = {
-'username': 'you_login',
-'email': 'you_email',
-'bday_day': '1',
-'bday_year': '1970',
-'new_password': 'strongPassword',
-'password_confirm': 'strongPassword',
-}
-
-# если нужно найти вольтаж, то начните с близкого к этому значению, если энергию, то с 0.01
-volt = 40.00
 
 # Ну так калечно
 run = True
